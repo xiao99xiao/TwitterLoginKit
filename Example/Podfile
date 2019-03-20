@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TwitterLoginKit_Example' do
+  pod 'TwitterLoginKit', :path => '../'
+
+  target 'TwitterLoginKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
