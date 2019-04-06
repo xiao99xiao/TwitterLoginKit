@@ -7,27 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30572A7A3CC100FC1FA8B689B2309410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		34178002DB6EB3A389D71F12DAC86A11 /* TwitterLoginKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF31B3EC8EC81952935CB3FCB90C8E2 /* TwitterLoginKit-dummy.m */; };
-		6AA0CE63B035A85CC45736DE1497F543 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		1DD086054EB0A25489F47AB3A7146E27 /* TwitterErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC15A1C67FDEFBAF6F98A90C9533C3 /* TwitterErrors.swift */; };
+		1E36ADC2A5231604A9B266DF48A1CE51 /* TwitterLoginURLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCF3E684869B250C1F8F75557268973 /* TwitterLoginURLParser.swift */; };
+		266C83137756671B54FE5108691CE7E2 /* TwitterLoginSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C443D7DFA823B936F291887B408BCB8 /* TwitterLoginSession.swift */; };
+		30572A7A3CC100FC1FA8B689B2309410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		374B6157036C48BBCF68FC3C42248B44 /* TwitterUserAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049BF2E0FBC26BA61E748601D7D00EC /* TwitterUserAPIClient.swift */; };
+		68364C8C494E49D4A7C65527342C0806 /* TwitterWebAuthenticationTokenRequestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D95C3948D06B5C2A459839D3D41D09E /* TwitterWebAuthenticationTokenRequestor.swift */; };
+		6AA0CE63B035A85CC45736DE1497F543 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		705F76FD665373C4C7FD63EC342B43E8 /* TwitterGCOAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F66CE82632A6071E366BA4F7EDA4F0 /* TwitterGCOAuth.swift */; };
+		7B0E41771611AE398740FFD679273788 /* TwitterMobileSSO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201C876F6BEBEF6E001BBEDDDAF35A68 /* TwitterMobileSSO.swift */; };
 		7DA943B4042F96200718E5596397523F /* Pods-TwitterLoginKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DC6827479E065F392E1F63ED3D4585 /* Pods-TwitterLoginKit_Tests-dummy.m */; };
-		881F526C22420D7A00CF240C /* TwitterLoginSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F526A22420D7A00CF240C /* TwitterLoginSession.swift */; };
-		881F526D22420D7A00CF240C /* TwitterLoginKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F526B22420D7A00CF240C /* TwitterLoginKit.swift */; };
-		881F526F22421FA500CF240C /* TwitterMobileSSO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F526E22421FA500CF240C /* TwitterMobileSSO.swift */; };
-		881F52712242207200CF240C /* TwitterAuthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F52702242207200CF240C /* TwitterAuthConfig.swift */; };
-		881F52732242237F00CF240C /* TwitterErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F52722242237F00CF240C /* TwitterErrors.swift */; };
-		881F52752242243C00CF240C /* TwitterConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F52742242243C00CF240C /* TwitterConstants.swift */; };
-		881F527722422BBB00CF240C /* TwitterLoginURLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F527622422BBB00CF240C /* TwitterLoginURLParser.swift */; };
-		888FB1EC2244C06D00FBF33C /* TwitterWebAuthenticationFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888FB1EB2244C06D00FBF33C /* TwitterWebAuthenticationFlow.swift */; };
-		888FB1EE2244CB3400FBF33C /* TwitterGCOAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888FB1ED2244CB3400FBF33C /* TwitterGCOAuth.swift */; };
-		888FB1F02244D5B100FBF33C /* TwitterWebAuthenticationTokenRequestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888FB1EF2244D5B100FBF33C /* TwitterWebAuthenticationTokenRequestor.swift */; };
-		888FB1F22244D92300FBF33C /* TwitterUserAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888FB1F12244D92300FBF33C /* TwitterUserAPIClient.swift */; };
-		88C45EFD224BA20500A14F4B /* TwitterWebAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C45EFC224BA20500A14F4B /* TwitterWebAuthenticationViewController.swift */; };
+		9E6EA71C0C6AE9F8916E4222F1E11C80 /* TwitterAuthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4874A6F269A00E69D5BFF151B0C1CF75 /* TwitterAuthConfig.swift */; };
 		AE778EF74ADDDA7320EFB7E326E253BF /* Pods-TwitterLoginKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A0A3288514A7A9FE58CA78DB5E3A91 /* Pods-TwitterLoginKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF1F0DE975CFBD0B8B48A7968E125EE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B4ABD391A563133890DB29571C266DB9 /* TwitterLoginKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45835F0963DEBEA74C700010EB3663A0 /* TwitterLoginKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B553D0A49BD3B28DED849EFDFA845DD7 /* Pods-TwitterLoginKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A38525401ED17BC43C6C9E37DF0483ED /* Pods-TwitterLoginKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6B4588F9E6EE860A0236259D0E2BA87 /* TwitterLoginKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA20AA488FABABB4A37F3924A3902B1 /* TwitterLoginKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA883B254EB5EF87C3A0B40C11F8C7C8 /* TwitterLoginKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F9B86D085ACA23945A6D7906A5CF79 /* TwitterLoginKit-dummy.m */; };
+		C4CE6E3FC5B771A9C408FE00B195B2D9 /* TwitterConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741DD412D38977B60A25477A8BE1FD73 /* TwitterConstants.swift */; };
+		CF14F1AE9E757C84A2814C12670FB49D /* TwitterWebAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06964C27C779AC4364B94B49F5FAFB6 /* TwitterWebAuthenticationViewController.swift */; };
 		D9A2FF079B51DF9F2D71B1C99C89CB8F /* Pods-TwitterLoginKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE186687CCD22365A56F03A5A5E2C449 /* Pods-TwitterLoginKit_Example-dummy.m */; };
+		E281846087E80DD4F66A2C782BACB1A1 /* TwitterLoginKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D182C338B292769A7A0F353A87891F3C /* TwitterLoginKit.swift */; };
+		F360CD031CC2A4F97D1E0713594EE1FF /* TwitterWebAuthenticationFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2438469AD7D672A7C776FE0664D9C /* TwitterWebAuthenticationFlow.swift */; };
+		F83E6593E9DDB04BAA3E01449F9BB060 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		F8977DFA3528787B4F7FC00420481DF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,56 +50,58 @@
 
 /* Begin PBXFileReference section */
 		05F900A77DC22EF9CBED60D0B65E0A7F /* Pods-TwitterLoginKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterLoginKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0C2EB99F6B0EC8DCF4D5442C6C5C3D58 /* TwitterLoginKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwitterLoginKit.xcconfig; sourceTree = "<group>"; };
-		10093F6B2393E33467809CF18B52031D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2DBE725776268E5D8451A2ABD33C7285 /* TwitterLoginKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TwitterLoginKit.modulemap; sourceTree = "<group>"; };
+		1D95C3948D06B5C2A459839D3D41D09E /* TwitterWebAuthenticationTokenRequestor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterWebAuthenticationTokenRequestor.swift; path = TwitterLoginKit/Classes/TwitterWebAuthenticationTokenRequestor.swift; sourceTree = "<group>"; };
+		201C876F6BEBEF6E001BBEDDDAF35A68 /* TwitterMobileSSO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterMobileSSO.swift; path = TwitterLoginKit/Classes/TwitterMobileSSO.swift; sourceTree = "<group>"; };
 		335CE3FA7480E1ECEC2AAF6C8489712C /* Pods-TwitterLoginKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitterLoginKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		3663F81C4C2F965D728D1A814705CFE4 /* Pods-TwitterLoginKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterLoginKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		43F66CE82632A6071E366BA4F7EDA4F0 /* TwitterGCOAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterGCOAuth.swift; path = TwitterLoginKit/Classes/TwitterGCOAuth.swift; sourceTree = "<group>"; };
+		444D8912DD6C107F83314510F814B40F /* TwitterLoginKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TwitterLoginKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		45835F0963DEBEA74C700010EB3663A0 /* TwitterLoginKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwitterLoginKit-umbrella.h"; sourceTree = "<group>"; };
+		4874A6F269A00E69D5BFF151B0C1CF75 /* TwitterAuthConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterAuthConfig.swift; path = TwitterLoginKit/Classes/TwitterAuthConfig.swift; sourceTree = "<group>"; };
 		4CDE740A08CA06D57FFE150697901DCF /* Pods-TwitterLoginKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitterLoginKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4D5BDB7705A035A3D0EB31EA60490DA8 /* Pods-TwitterLoginKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitterLoginKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		57153EFA8CA0610AF4779AA16CA0A994 /* TwitterLoginKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TwitterLoginKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		56853EC227A98A8FEEFD0492AD265B04 /* TwitterLoginKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TwitterLoginKit.modulemap; sourceTree = "<group>"; };
+		57FC15A1C67FDEFBAF6F98A90C9533C3 /* TwitterErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterErrors.swift; path = TwitterLoginKit/Classes/TwitterErrors.swift; sourceTree = "<group>"; };
+		5EF2438469AD7D672A7C776FE0664D9C /* TwitterWebAuthenticationFlow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterWebAuthenticationFlow.swift; path = TwitterLoginKit/Classes/TwitterWebAuthenticationFlow.swift; sourceTree = "<group>"; };
 		624147D66E27D4FA75661D30C3AF70F2 /* Pods-TwitterLoginKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterLoginKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6261EC129395787AE58218C8595A9F9E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		64A0A3288514A7A9FE58CA78DB5E3A91 /* Pods-TwitterLoginKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitterLoginKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		780E0A8B11B94AC5C2028B8DFA2B6656 /* TwitterLoginKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwitterLoginKit-prefix.pch"; sourceTree = "<group>"; };
-		881F526A22420D7A00CF240C /* TwitterLoginSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitterLoginSession.swift; path = TwitterLoginKit/Classes/TwitterLoginSession.swift; sourceTree = "<group>"; };
-		881F526B22420D7A00CF240C /* TwitterLoginKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitterLoginKit.swift; path = TwitterLoginKit/Classes/TwitterLoginKit.swift; sourceTree = "<group>"; };
-		881F526E22421FA500CF240C /* TwitterMobileSSO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TwitterMobileSSO.swift; path = TwitterLoginKit/Classes/TwitterMobileSSO.swift; sourceTree = "<group>"; };
-		881F52702242207200CF240C /* TwitterAuthConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TwitterAuthConfig.swift; path = TwitterLoginKit/Classes/TwitterAuthConfig.swift; sourceTree = "<group>"; };
-		881F52722242237F00CF240C /* TwitterErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TwitterErrors.swift; path = TwitterLoginKit/Classes/TwitterErrors.swift; sourceTree = "<group>"; };
-		881F52742242243C00CF240C /* TwitterConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TwitterConstants.swift; path = TwitterLoginKit/Classes/TwitterConstants.swift; sourceTree = "<group>"; };
-		881F527622422BBB00CF240C /* TwitterLoginURLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TwitterLoginURLParser.swift; path = TwitterLoginKit/Classes/TwitterLoginURLParser.swift; sourceTree = "<group>"; };
-		888FB1EB2244C06D00FBF33C /* TwitterWebAuthenticationFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TwitterWebAuthenticationFlow.swift; path = TwitterLoginKit/Classes/TwitterWebAuthenticationFlow.swift; sourceTree = "<group>"; };
-		888FB1ED2244CB3400FBF33C /* TwitterGCOAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TwitterGCOAuth.swift; path = TwitterLoginKit/Classes/TwitterGCOAuth.swift; sourceTree = "<group>"; };
-		888FB1EF2244D5B100FBF33C /* TwitterWebAuthenticationTokenRequestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TwitterWebAuthenticationTokenRequestor.swift; path = TwitterLoginKit/Classes/TwitterWebAuthenticationTokenRequestor.swift; sourceTree = "<group>"; };
-		888FB1F12244D92300FBF33C /* TwitterUserAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TwitterUserAPIClient.swift; path = TwitterLoginKit/Classes/TwitterUserAPIClient.swift; sourceTree = "<group>"; };
-		88C45EFC224BA20500A14F4B /* TwitterWebAuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TwitterWebAuthenticationViewController.swift; path = TwitterLoginKit/Classes/TwitterWebAuthenticationViewController.swift; sourceTree = "<group>"; };
-		902C4CE7854F8F45AA4C1311F6B999F2 /* Pods_TwitterLoginKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterLoginKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F9B86D085ACA23945A6D7906A5CF79 /* TwitterLoginKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TwitterLoginKit-dummy.m"; sourceTree = "<group>"; };
+		6FCF3E684869B250C1F8F75557268973 /* TwitterLoginURLParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterLoginURLParser.swift; path = TwitterLoginKit/Classes/TwitterLoginURLParser.swift; sourceTree = "<group>"; };
+		741DD412D38977B60A25477A8BE1FD73 /* TwitterConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterConstants.swift; path = TwitterLoginKit/Classes/TwitterConstants.swift; sourceTree = "<group>"; };
+		7E5AFC8C0083CA18AE4450CA6AC80A93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8049BF2E0FBC26BA61E748601D7D00EC /* TwitterUserAPIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterUserAPIClient.swift; path = TwitterLoginKit/Classes/TwitterUserAPIClient.swift; sourceTree = "<group>"; };
+		902C4CE7854F8F45AA4C1311F6B999F2 /* Pods_TwitterLoginKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitterLoginKit_Tests.framework; path = "Pods-TwitterLoginKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DC6827479E065F392E1F63ED3D4585 /* Pods-TwitterLoginKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitterLoginKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		93EFC3EABCED8936B107B72D54429830 /* TwitterLoginKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TwitterLoginKit-Info.plist"; sourceTree = "<group>"; };
 		9752A01711A863F3C46D45AABE9CBAE9 /* Pods-TwitterLoginKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterLoginKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EF31B3EC8EC81952935CB3FCB90C8E2 /* TwitterLoginKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TwitterLoginKit-dummy.m"; sourceTree = "<group>"; };
-		A25F7471172BC83593F89C5E04F23FB4 /* Pods_TwitterLoginKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterLoginKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C443D7DFA823B936F291887B408BCB8 /* TwitterLoginSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterLoginSession.swift; path = TwitterLoginKit/Classes/TwitterLoginSession.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A25F7471172BC83593F89C5E04F23FB4 /* Pods_TwitterLoginKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitterLoginKit_Example.framework; path = "Pods-TwitterLoginKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38525401ED17BC43C6C9E37DF0483ED /* Pods-TwitterLoginKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitterLoginKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		AA1A793B2FDF94EBA8B675D96BA47ACA /* Pods-TwitterLoginKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitterLoginKit_Example.modulemap"; sourceTree = "<group>"; };
 		AE186687CCD22365A56F03A5A5E2C449 /* Pods-TwitterLoginKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitterLoginKit_Example-dummy.m"; sourceTree = "<group>"; };
-		B39086E25A0515B25ADAD5AD961095E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B06964C27C779AC4364B94B49F5FAFB6 /* TwitterWebAuthenticationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterWebAuthenticationViewController.swift; path = TwitterLoginKit/Classes/TwitterWebAuthenticationViewController.swift; sourceTree = "<group>"; };
 		BE1A5F49DA9775B69172A12357F48EE6 /* Pods-TwitterLoginKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitterLoginKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C85F41D7DDBF53D55F82B25722359128 /* Pods-TwitterLoginKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitterLoginKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C920ED7A7B8ABFB8D8A25FF516B1795A /* TwitterLoginKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TwitterLoginKit-Info.plist"; sourceTree = "<group>"; };
+		CE10D02B47C2EF5743B98B081F984724 /* TwitterLoginKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwitterLoginKit.xcconfig; sourceTree = "<group>"; };
+		D182C338B292769A7A0F353A87891F3C /* TwitterLoginKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterLoginKit.swift; path = TwitterLoginKit/Classes/TwitterLoginKit.swift; sourceTree = "<group>"; };
 		D7CF4210D91ADB6B839CC9E539EA7B59 /* Pods-TwitterLoginKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitterLoginKit_Tests.modulemap"; sourceTree = "<group>"; };
-		DAA20AA488FABABB4A37F3924A3902B1 /* TwitterLoginKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwitterLoginKit-umbrella.h"; sourceTree = "<group>"; };
-		DB107172A7B6558AD66FF2D9B409FD6E /* TwitterLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TwitterLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB107172A7B6558AD66FF2D9B409FD6E /* TwitterLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TwitterLoginKit.framework; path = TwitterLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2C84251368F2F88999D42A28343140 /* TwitterLoginKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwitterLoginKit-prefix.pch"; sourceTree = "<group>"; };
+		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		FBB8869EEE4C78844D0B71F38AAE50DF /* Pods-TwitterLoginKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitterLoginKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FF8CED6C3576F5ADEFDF5BD165F64EB9 /* Pods-TwitterLoginKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitterLoginKit_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5FB036F75FF5C42AFEBB0985DD1A345A /* Frameworks */ = {
+		AD2AEEBA6E10EE99B4749D22C5BA6249 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF1F0DE975CFBD0B8B48A7968E125EE5 /* Foundation.framework in Frameworks */,
+				F83E6593E9DDB04BAA3E01449F9BB060 /* Foundation.framework in Frameworks */,
+				F8977DFA3528787B4F7FC00420481DF0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +124,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06544E2988F91029BA62B1B010D24CF1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7E5AFC8C0083CA18AE4450CA6AC80A93 /* LICENSE */,
+				6261EC129395787AE58218C8595A9F9E /* README.md */,
+				444D8912DD6C107F83314510F814B40F /* TwitterLoginKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		13B3F991F8ED8E3764E7B7B347E3C916 /* Pods-TwitterLoginKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +149,22 @@
 			);
 			name = "Pods-TwitterLoginKit_Example";
 			path = "Target Support Files/Pods-TwitterLoginKit_Example";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A6F0F73EE019CD6C2899C95655136A4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4D680FB1497C863A11E922363CD212A /* TwitterLoginKit */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		4D47E262899AFAD5F024BA836D82E693 /* Products */ = {
@@ -173,103 +202,78 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7F379245C094DB528F15B185B52200BB /* Development Pods */ = {
+		9B94CDD10AE8A3E460F127BCA2D3A151 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8DCAF69E8952E61B2A0A5A17DFB1F1F0 /* TwitterLoginKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		841697F4EA2BCC4C9365FAE9B98D0626 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B39086E25A0515B25ADAD5AD961095E7 /* LICENSE */,
-				10093F6B2393E33467809CF18B52031D /* README.md */,
-				57153EFA8CA0610AF4779AA16CA0A994 /* TwitterLoginKit.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		856B95DB987F6403AF7D33C80BBCE0B7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2DBE725776268E5D8451A2ABD33C7285 /* TwitterLoginKit.modulemap */,
-				0C2EB99F6B0EC8DCF4D5442C6C5C3D58 /* TwitterLoginKit.xcconfig */,
-				9EF31B3EC8EC81952935CB3FCB90C8E2 /* TwitterLoginKit-dummy.m */,
-				93EFC3EABCED8936B107B72D54429830 /* TwitterLoginKit-Info.plist */,
-				780E0A8B11B94AC5C2028B8DFA2B6656 /* TwitterLoginKit-prefix.pch */,
-				DAA20AA488FABABB4A37F3924A3902B1 /* TwitterLoginKit-umbrella.h */,
+				56853EC227A98A8FEEFD0492AD265B04 /* TwitterLoginKit.modulemap */,
+				CE10D02B47C2EF5743B98B081F984724 /* TwitterLoginKit.xcconfig */,
+				69F9B86D085ACA23945A6D7906A5CF79 /* TwitterLoginKit-dummy.m */,
+				C920ED7A7B8ABFB8D8A25FF516B1795A /* TwitterLoginKit-Info.plist */,
+				DC2C84251368F2F88999D42A28343140 /* TwitterLoginKit-prefix.pch */,
+				45835F0963DEBEA74C700010EB3663A0 /* TwitterLoginKit-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TwitterLoginKit";
-			sourceTree = "<group>";
-		};
-		8DCAF69E8952E61B2A0A5A17DFB1F1F0 /* TwitterLoginKit */ = {
-			isa = PBXGroup;
-			children = (
-				881F526B22420D7A00CF240C /* TwitterLoginKit.swift */,
-				881F526E22421FA500CF240C /* TwitterMobileSSO.swift */,
-				888FB1EB2244C06D00FBF33C /* TwitterWebAuthenticationFlow.swift */,
-				888FB1EF2244D5B100FBF33C /* TwitterWebAuthenticationTokenRequestor.swift */,
-				88C45EFC224BA20500A14F4B /* TwitterWebAuthenticationViewController.swift */,
-				881F52702242207200CF240C /* TwitterAuthConfig.swift */,
-				881F527622422BBB00CF240C /* TwitterLoginURLParser.swift */,
-				888FB1ED2244CB3400FBF33C /* TwitterGCOAuth.swift */,
-				881F526A22420D7A00CF240C /* TwitterLoginSession.swift */,
-				881F52722242237F00CF240C /* TwitterErrors.swift */,
-				881F52742242243C00CF240C /* TwitterConstants.swift */,
-				888FB1F12244D92300FBF33C /* TwitterUserAPIClient.swift */,
-				841697F4EA2BCC4C9365FAE9B98D0626 /* Pod */,
-				856B95DB987F6403AF7D33C80BBCE0B7 /* Support Files */,
-			);
-			name = TwitterLoginKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7F379245C094DB528F15B185B52200BB /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1A6F0F73EE019CD6C2899C95655136A4 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				4D47E262899AFAD5F024BA836D82E693 /* Products */,
 				7EFC1FCB3C9B8DD1ADBD4517575EEB4F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
+				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E4D680FB1497C863A11E922363CD212A /* TwitterLoginKit */ = {
+			isa = PBXGroup;
+			children = (
+				4874A6F269A00E69D5BFF151B0C1CF75 /* TwitterAuthConfig.swift */,
+				741DD412D38977B60A25477A8BE1FD73 /* TwitterConstants.swift */,
+				57FC15A1C67FDEFBAF6F98A90C9533C3 /* TwitterErrors.swift */,
+				43F66CE82632A6071E366BA4F7EDA4F0 /* TwitterGCOAuth.swift */,
+				D182C338B292769A7A0F353A87891F3C /* TwitterLoginKit.swift */,
+				9C443D7DFA823B936F291887B408BCB8 /* TwitterLoginSession.swift */,
+				6FCF3E684869B250C1F8F75557268973 /* TwitterLoginURLParser.swift */,
+				201C876F6BEBEF6E001BBEDDDAF35A68 /* TwitterMobileSSO.swift */,
+				8049BF2E0FBC26BA61E748601D7D00EC /* TwitterUserAPIClient.swift */,
+				5EF2438469AD7D672A7C776FE0664D9C /* TwitterWebAuthenticationFlow.swift */,
+				1D95C3948D06B5C2A459839D3D41D09E /* TwitterWebAuthenticationTokenRequestor.swift */,
+				B06964C27C779AC4364B94B49F5FAFB6 /* TwitterWebAuthenticationViewController.swift */,
+				06544E2988F91029BA62B1B010D24CF1 /* Pod */,
+				9B94CDD10AE8A3E460F127BCA2D3A151 /* Support Files */,
+			);
+			name = TwitterLoginKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3D5085FA8E343E10AD1C195CE7E4499E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4ABD391A563133890DB29571C266DB9 /* TwitterLoginKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		58FAECE9561CCAF82D837A80B9AB3191 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B553D0A49BD3B28DED849EFDFA845DD7 /* Pods-TwitterLoginKit_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF515484F9D9B718C5C463D7BA79D955 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6B4588F9E6EE860A0236259D0E2BA87 /* TwitterLoginKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +290,12 @@
 /* Begin PBXNativeTarget section */
 		251350515E660C39DB9424E696E321D2 /* TwitterLoginKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D776F62110F7D1756EFA008E7E18BE40 /* Build configuration list for PBXNativeTarget "TwitterLoginKit" */;
+			buildConfigurationList = E396744E029563D69E921ED1D530C2EA /* Build configuration list for PBXNativeTarget "TwitterLoginKit" */;
 			buildPhases = (
-				CF515484F9D9B718C5C463D7BA79D955 /* Headers */,
-				FF494F226EEAB4618528B6B87626A3A9 /* Sources */,
-				5FB036F75FF5C42AFEBB0985DD1A345A /* Frameworks */,
-				32DA0347E8E332F6B77209A4101B775F /* Resources */,
+				3D5085FA8E343E10AD1C195CE7E4499E /* Headers */,
+				B5E611614E8BA14C15146B26111B1FCA /* Sources */,
+				AD2AEEBA6E10EE99B4749D22C5BA6249 /* Frameworks */,
+				FB73418D3607F5DE4D3D866AC3F3007C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -347,20 +351,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
-				TargetAttributes = {
-					251350515E660C39DB9424E696E321D2 = {
-						LastSwiftMigration = 1020;
-					};
-				};
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 4D47E262899AFAD5F024BA836D82E693 /* Products */;
@@ -375,13 +373,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		32DA0347E8E332F6B77209A4101B775F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		83C06EE2D12509A59733C9B86FD2C708 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,9 +387,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB73418D3607F5DE4D3D866AC3F3007C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B5E611614E8BA14C15146B26111B1FCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6EA71C0C6AE9F8916E4222F1E11C80 /* TwitterAuthConfig.swift in Sources */,
+				C4CE6E3FC5B771A9C408FE00B195B2D9 /* TwitterConstants.swift in Sources */,
+				1DD086054EB0A25489F47AB3A7146E27 /* TwitterErrors.swift in Sources */,
+				705F76FD665373C4C7FD63EC342B43E8 /* TwitterGCOAuth.swift in Sources */,
+				BA883B254EB5EF87C3A0B40C11F8C7C8 /* TwitterLoginKit-dummy.m in Sources */,
+				E281846087E80DD4F66A2C782BACB1A1 /* TwitterLoginKit.swift in Sources */,
+				266C83137756671B54FE5108691CE7E2 /* TwitterLoginSession.swift in Sources */,
+				1E36ADC2A5231604A9B266DF48A1CE51 /* TwitterLoginURLParser.swift in Sources */,
+				7B0E41771611AE398740FFD679273788 /* TwitterMobileSSO.swift in Sources */,
+				374B6157036C48BBCF68FC3C42248B44 /* TwitterUserAPIClient.swift in Sources */,
+				F360CD031CC2A4F97D1E0713594EE1FF /* TwitterWebAuthenticationFlow.swift in Sources */,
+				68364C8C494E49D4A7C65527342C0806 /* TwitterWebAuthenticationTokenRequestor.swift in Sources */,
+				CF14F1AE9E757C84A2814C12670FB49D /* TwitterWebAuthenticationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C7405F5B312FE8AFFB97FB1BB5DAB25D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -412,26 +430,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9A2FF079B51DF9F2D71B1C99C89CB8F /* Pods-TwitterLoginKit_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF494F226EEAB4618528B6B87626A3A9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				881F52732242237F00CF240C /* TwitterErrors.swift in Sources */,
-				881F52752242243C00CF240C /* TwitterConstants.swift in Sources */,
-				888FB1EC2244C06D00FBF33C /* TwitterWebAuthenticationFlow.swift in Sources */,
-				888FB1F22244D92300FBF33C /* TwitterUserAPIClient.swift in Sources */,
-				881F527722422BBB00CF240C /* TwitterLoginURLParser.swift in Sources */,
-				881F526C22420D7A00CF240C /* TwitterLoginSession.swift in Sources */,
-				888FB1EE2244CB3400FBF33C /* TwitterGCOAuth.swift in Sources */,
-				888FB1F02244D5B100FBF33C /* TwitterWebAuthenticationTokenRequestor.swift in Sources */,
-				881F526F22421FA500CF240C /* TwitterMobileSSO.swift in Sources */,
-				881F526D22420D7A00CF240C /* TwitterLoginKit.swift in Sources */,
-				88C45EFD224BA20500A14F4B /* TwitterWebAuthenticationViewController.swift in Sources */,
-				881F52712242207200CF240C /* TwitterAuthConfig.swift in Sources */,
-				34178002DB6EB3A389D71F12DAC86A11 /* TwitterLoginKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,44 +451,72 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		122EDD97648C5BE81E1DB77DE6CEE821 /* Release */ = {
+		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C2EB99F6B0EC8DCF4D5442C6C5C3D58 /* TwitterLoginKit.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TwitterLoginKit/TwitterLoginKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TwitterLoginKit/TwitterLoginKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TwitterLoginKit/TwitterLoginKit.modulemap";
-				PRODUCT_MODULE_NAME = TwitterLoginKit;
-				PRODUCT_NAME = TwitterLoginKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		78AFAD6C1794F9C26A1D844F6AE433B6 /* Release */ = {
+		3772FCC5A162D5CE3E99ABB62034380A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05F900A77DC22EF9CBED60D0B65E0A7F /* Pods-TwitterLoginKit_Tests.release.xcconfig */;
+			baseConfigurationReference = 624147D66E27D4FA75661D30C3AF70F2 /* Pods-TwitterLoginKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -514,17 +540,17 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		8C788D98CAF4FE08E5D622D70DB4BB39 /* Release */ = {
+		379FCD2D5499565933BCF7B7E092A079 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9752A01711A863F3C46D45AABE9CBAE9 /* Pods-TwitterLoginKit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -554,11 +580,11 @@
 			};
 			name = Release;
 		};
-		AB420743E39CEEE6D2BBC6E0557EC0E1 /* Debug */ = {
+		54ABCEFECAE5F406AE647DD314E25A1E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C2EB99F6B0EC8DCF4D5442C6C5C3D58 /* TwitterLoginKit.xcconfig */;
+			baseConfigurationReference = CE10D02B47C2EF5743B98B081F984724 /* TwitterLoginKit.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -579,7 +605,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -587,7 +612,7 @@
 			};
 			name = Debug;
 		};
-		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -638,7 +663,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -651,11 +676,12 @@
 			};
 			name = Debug;
 		};
-		B5B8744F26F720CBEF02AFF27FBDAE4B /* Debug */ = {
+		9818325FD397F7932C893BCFCBC27942 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 624147D66E27D4FA75661D30C3AF70F2 /* Pods-TwitterLoginKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = 05F900A77DC22EF9CBED60D0B65E0A7F /* Pods-TwitterLoginKit_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -679,75 +705,51 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+		BCCAAF7357672C90686E9A699EC21B07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE10D02B47C2EF5743B98B081F984724 /* TwitterLoginKit.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TwitterLoginKit/TwitterLoginKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TwitterLoginKit/TwitterLoginKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TwitterLoginKit/TwitterLoginKit.modulemap";
+				PRODUCT_MODULE_NAME = TwitterLoginKit;
+				PRODUCT_NAME = TwitterLoginKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		F4C9BE6FFE6E49BA6F260A26857FBD65 /* Debug */ = {
+		D3BC1D1F6E101BD40B679C8F7B200F79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3663F81C4C2F965D728D1A814705CFE4 /* Pods-TwitterLoginKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -782,8 +784,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
-				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
+				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -791,8 +793,8 @@
 		4F0B52C30C7E79CE330E7E552AE96415 /* Build configuration list for PBXNativeTarget "Pods-TwitterLoginKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4C9BE6FFE6E49BA6F260A26857FBD65 /* Debug */,
-				8C788D98CAF4FE08E5D622D70DB4BB39 /* Release */,
+				D3BC1D1F6E101BD40B679C8F7B200F79 /* Debug */,
+				379FCD2D5499565933BCF7B7E092A079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -800,17 +802,17 @@
 		800296D7ACDDE80D3DAA08B3D8ED205F /* Build configuration list for PBXNativeTarget "Pods-TwitterLoginKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5B8744F26F720CBEF02AFF27FBDAE4B /* Debug */,
-				78AFAD6C1794F9C26A1D844F6AE433B6 /* Release */,
+				3772FCC5A162D5CE3E99ABB62034380A /* Debug */,
+				9818325FD397F7932C893BCFCBC27942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D776F62110F7D1756EFA008E7E18BE40 /* Build configuration list for PBXNativeTarget "TwitterLoginKit" */ = {
+		E396744E029563D69E921ED1D530C2EA /* Build configuration list for PBXNativeTarget "TwitterLoginKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB420743E39CEEE6D2BBC6E0557EC0E1 /* Debug */,
-				122EDD97648C5BE81E1DB77DE6CEE821 /* Release */,
+				54ABCEFECAE5F406AE647DD314E25A1E /* Debug */,
+				BCCAAF7357672C90686E9A699EC21B07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

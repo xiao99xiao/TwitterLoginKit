@@ -1,8 +1,7 @@
 {
   "name": "TwitterLoginKit",
   "version": "0.1.0",
-  "summary": "A short description of TwitterLoginKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A Twitter Login library to replace the deprecated TwitterKit.",
   "homepage": "https://github.com/xiao99xiao/TwitterLoginKit",
   "license": {
     "type": "MIT",
@@ -16,7 +15,9 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "TwitterLoginKit/Classes/**/*"
+  "source_files": "TwitterLoginKit/Classes/**/*",
+  "frameworks": "UIKit",
+  "swift_versions": "5.0"
 }

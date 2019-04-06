@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TwitterLoginKit: 53c188aeaeeaca3a1dacc3cf160a9d682cbf77e0
+  TwitterLoginKit: cd60526756e4fa1c86e6c65cabdf1e0c66f45f8f
 
-PODFILE CHECKSUM: af32874bfa54c5e917536e3a60d89acd5758320d
+PODFILE CHECKSUM: d6b45c8242401058746c99aabbb57ebed0c8acd9
 
-COCOAPODS: 1.7.0.beta.2
+COCOAPODS: 1.7.0.beta.3
