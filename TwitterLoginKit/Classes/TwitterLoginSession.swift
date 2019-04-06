@@ -13,10 +13,10 @@ public enum TwitterLoginState {
 }
 
 public struct TwitterLoginSession {
-    let authToken: String
-    let authTokenSecret: String
-    let userName: String
-    let userID: String
+    public let authToken: String
+    public let authTokenSecret: String
+    public let userName: String
+    public let userID: String
 }
 
 extension TwitterLoginSession {
