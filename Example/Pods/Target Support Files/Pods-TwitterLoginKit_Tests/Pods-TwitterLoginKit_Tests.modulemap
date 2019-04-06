@@ -1,0 +1,6 @@
+framework module Pods_TwitterLoginKit_Tests {
+  umbrella header "Pods-TwitterLoginKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

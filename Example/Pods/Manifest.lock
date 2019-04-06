@@ -1,0 +1,16 @@
+PODS:
+  - TwitterLoginKit (0.1.0)
+
+DEPENDENCIES:
+  - TwitterLoginKit (from `../`)
+
+EXTERNAL SOURCES:
+  TwitterLoginKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TwitterLoginKit: 53c188aeaeeaca3a1dacc3cf160a9d682cbf77e0
+
+PODFILE CHECKSUM: af32874bfa54c5e917536e3a60d89acd5758320d
+
+COCOAPODS: 1.7.0.beta.2

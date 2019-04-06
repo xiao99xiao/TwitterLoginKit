@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TwitterLoginKit
 
 class ViewController: UIViewController {
 
@@ -20,5 +21,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func loginTapped(_ sender: Any) {
+        TwitterLoginKit.shared.login(withViewController: self) { (state) in
+            switch state {
+            case .failure(let error):
+                print(error.localizedDescription)
+            case .success(let session):
+                print(session)
+            }
+        }
+    }
 }
 

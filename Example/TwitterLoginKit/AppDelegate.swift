@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TwitterLoginKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,9 +15,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        if let path = Bundle.main.path(forResource: "ExampleKeys", ofType: "plist"), let dic = NSDictionary(contentsOfFile: path) as? [String: String], let consumerKey = dic["ConsumerKey"], let consumerSecret = dic["ConsumerSecret"] {
+            TwitterLoginKit.shared.start(withConsumerKey: consumerKey, consumerSecret: consumerSecret)
+        } else {
+            fatalError("Add your own ExampleKeys.plist file first.")
+        }
         return true
+    }
+
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        return TwitterLoginKit.shared.application(app, open: url, options: options)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

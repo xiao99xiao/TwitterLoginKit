@@ -11,6 +11,14 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+* A valid Twitter App with  Consumer API keys and Access token & access token secret issued.
+
+## Usage
+
+1. Call `TwitterLoginKit.shared.start(withConsumerKey:, consumerSecret:)` at `func application(_ application:, didFinishLaunchingWithOptions:) -> Bool`
+2. Add URL Scheme `twitterkit-<Consumer Key>`
+3. Call `func login(withViewController:, completion:)` to start login process
+
 ## Installation
 
 TwitterLoginKit is available through [CocoaPods](https://cocoapods.org). To install

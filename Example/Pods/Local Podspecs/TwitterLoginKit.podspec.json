@@ -1,0 +1,22 @@
+{
+  "name": "TwitterLoginKit",
+  "version": "0.1.0",
+  "summary": "A short description of TwitterLoginKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiao99xiao/TwitterLoginKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiao99xiao": "xx2004xiamen@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/xiao99xiao/TwitterLoginKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TwitterLoginKit/Classes/**/*"
+}
