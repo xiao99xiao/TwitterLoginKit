@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TwitterLoginKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A Twitter Login library to replace the deprecated TwitterKit.'
 
   s.homepage         = 'https://github.com/xiao99xiao/TwitterLoginKit'

@@ -1,5 +1,5 @@
 PODS:
-  - TwitterLoginKit (0.1.2)
+  - TwitterLoginKit (0.1.3)
 
 DEPENDENCIES:
   - TwitterLoginKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TwitterLoginKit: e84bb61cc772ad0f24991c313310232da5c7d4a1
+  TwitterLoginKit: b620d6bfdf2dde06912e45c938fc44ed9e6598c0
 
 PODFILE CHECKSUM: d6b45c8242401058746c99aabbb57ebed0c8acd9
 
