@@ -48,10 +48,12 @@ public class TwitterLoginKit: NSObject {
         webAuthenticationFlow?.beginAuthenticationFlow({ (vc) in
             viewController.present(vc, animated: true, completion: nil)
         }, completion: { (state) in
-            if let vc = viewController.presentingViewController as? SFSafariViewController {
+            if let vc = viewController.presentedViewController as? SFSafariViewController {
                 vc.dismiss(animated: true, completion: {
                     completion(state)
                 })
+            } else {
+                completion(state)
             }
         })
     }
