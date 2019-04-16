@@ -1,23 +1,18 @@
 # TwitterLoginKit
 
-[![CI Status](https://img.shields.io/travis/xiao99xiao/TwitterLoginKit.svg?style=flat)](https://travis-ci.org/xiao99xiao/TwitterLoginKit)
 [![Version](https://img.shields.io/cocoapods/v/TwitterLoginKit.svg?style=flat)](https://cocoapods.org/pods/TwitterLoginKit)
 [![License](https://img.shields.io/cocoapods/l/TwitterLoginKit.svg?style=flat)](https://cocoapods.org/pods/TwitterLoginKit)
 [![Platform](https://img.shields.io/cocoapods/p/TwitterLoginKit.svg?style=flat)](https://cocoapods.org/pods/TwitterLoginKit)
 
-## Example
+TwitterLoginKit aims to replicate the login feature of the official TwitterKit, including login via Twitter App and via SFSafariViewController. Currently the library behaves the same as the official one, while lacking a bit security protection as below:
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+* Verify tokens received from URL scheme call (normally called by Twitter app) via Twitter API `account/verify_credentials`. Without this verification, someone could create a fake Twitter app to intercept the login process and return invalid tokens.
+* SSL Pinning, necessary to avoid MITM between your app and Twitter API.
+
 
 ## Requirements
 
-* A valid Twitter App with  Consumer API keys and Access token & access token secret issued.
-
-## Usage
-
-1. Call `TwitterLoginKit.shared.start(withConsumerKey:, consumerSecret:)` at `func application(_ application:, didFinishLaunchingWithOptions:) -> Bool`
-2. Add URL Scheme `twitterkit-<Consumer Key>`
-3. Call `func login(withViewController:, completion:)` to start login process
+* Register a valid Twitter App in Twitter Developers with Consumer API keys and Access token & access token secret issued.
 
 ## Installation
 
@@ -27,6 +22,16 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'TwitterLoginKit'
 ```
+
+## Usage
+
+1. Call `TwitterLoginKit.shared.start(withConsumerKey:, consumerSecret:)` at `func application(_ application:, didFinishLaunchingWithOptions:) -> Bool`
+2. Add URL Scheme `twitterkit-<Consumer Key>`
+3. Call `func login(withViewController:, completion:)` to start login process
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Author
 
