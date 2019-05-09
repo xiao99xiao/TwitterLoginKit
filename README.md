@@ -1,9 +1,5 @@
 # TwitterLoginKit
 
-[![Version](https://img.shields.io/cocoapods/v/TwitterLoginKit.svg?style=flat)](https://cocoapods.org/pods/TwitterLoginKit)
-[![License](https://img.shields.io/cocoapods/l/TwitterLoginKit.svg?style=flat)](https://cocoapods.org/pods/TwitterLoginKit)
-[![Platform](https://img.shields.io/cocoapods/p/TwitterLoginKit.svg?style=flat)](https://cocoapods.org/pods/TwitterLoginKit)
-
 TwitterLoginKit aims to replicate the login feature of the official TwitterKit, including login via Twitter App and via SFSafariViewController. Currently the library behaves the same as the official one, while lacking a bit security protection as below:
 
 * Verify tokens received from URL scheme call (normally called by Twitter app) via Twitter API `account/verify_credentials`. Without this verification, someone could create a fake Twitter app to intercept the login process and return invalid tokens.
