@@ -61,17 +61,26 @@ public class TwitterLoginKit: NSObject {
 
 public extension TwitterLoginKit {
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        guard let mobileSSO = mobileSSO, let sourceApplication = options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String else {return false}
-        switch mobileSSO.typeOf(sourceApplication: sourceApplication) {
-        case .sso:
-            return mobileSSO.process(redirectURL: url)
-        case .web:
+        guard let mobileSSO = mobileSSO else {return false}
+        if #available(iOS 13.0, *) {
             if mobileSSO.verifyOauthTokenResponse(fromURL: url) {
                 return webAuthenticationFlow?.resumeAuthentication(withRedirectURL: url) ?? false
+            } else {
+                return mobileSSO.process(redirectURL: url)
             }
-        case .invalid:
-            mobileSSO.triggerInvalidSourceError()
+        } else {
+            guard let sourceApplication = options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String else {return false}
+            switch mobileSSO.typeOf(sourceApplication: sourceApplication) {
+            case .sso:
+                return mobileSSO.process(redirectURL: url)
+            case .web:
+                if mobileSSO.verifyOauthTokenResponse(fromURL: url) {
+                    return webAuthenticationFlow?.resumeAuthentication(withRedirectURL: url) ?? false
+                }
+            case .invalid:
+                mobileSSO.triggerInvalidSourceError()
+            }
+            return false
         }
-        return false
     }
 }
