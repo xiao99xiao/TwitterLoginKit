@@ -49,9 +49,11 @@ public class TwitterLoginKit: NSObject {
             viewController.present(vc, animated: true, completion: nil)
         }, completion: { (state) in
             if let vc = viewController.presentedViewController as? SFSafariViewController {
-                vc.dismiss(animated: true, completion: {
-                    completion(state)
-                })
+                DispatchQueue.main.async {
+                    vc.dismiss(animated: true, completion: {
+                        completion(state)
+                    })
+                }
             } else {
                 completion(state)
             }
