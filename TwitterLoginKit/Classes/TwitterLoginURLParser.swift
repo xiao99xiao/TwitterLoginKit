@@ -26,12 +26,11 @@ class TwitterLoginURLParser: NSObject {
     func isOauthTokenVerified(from url: URL?) -> Bool {
         guard let url = url else {return false}
         let param = parameters(fromQueryString: url.absoluteString)
-        var token = param[TwitterAuthOAuthTokenKey]
-        if token == nil {
-            token = param[TwitterAuthAppOAuthDeniedKey]
+        if param[TwitterAuthOAuthTokenKey] != nil || param[TwitterAuthAppOAuthDeniedKey] != nil {
+            return true
+        } else {
+            return false
         }
-
-        return true
     }
 
     func isTwitterKitRedirectURL(_ url: URL) -> Bool {
