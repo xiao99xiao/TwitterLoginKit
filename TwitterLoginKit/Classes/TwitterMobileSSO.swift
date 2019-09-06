@@ -30,16 +30,6 @@ class TwitterMobileSSO: NSObject {
         }
     }
 
-    func typeOf(sourceApplication: String) -> SourceApplicationType {
-        if sourceApplication.contains("com.twitter") || sourceApplication.contains("com.atebits") {
-            return .sso
-        } else if let bundleId = Bundle.main.bundleIdentifier, sourceApplication.contains("com.apple") || sourceApplication.contains(bundleId) {
-            return .web
-        } else {
-            return .invalid
-        }
-    }
-
     func triggerInvalidSourceError() {
         DispatchQueue.main.async {
             self.completion?(.failure(TwitterErrors.invalidSourceApplicationError))
