@@ -1,6 +1,0 @@
-framework module TwitterLoginKit {
-  umbrella header "TwitterLoginKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
