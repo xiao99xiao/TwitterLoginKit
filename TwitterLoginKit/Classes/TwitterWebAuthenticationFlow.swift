@@ -120,7 +120,9 @@ class TwitterWebAuthenticationFlow: NSObject {
 
 extension TwitterWebAuthenticationFlow: SFSafariViewControllerDelegate {
     func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
+        #if !targetEnvironment(macCatalyst)
         fail(withError: TwitterErrors.webCancelError)
+        #endif
     }
 }
 

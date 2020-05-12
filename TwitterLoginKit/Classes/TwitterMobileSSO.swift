@@ -23,10 +23,14 @@ class TwitterMobileSSO: NSObject {
 
     func attemptAppLogin(withCompletion completion: @escaping TwitterLoginCompletion) {
         self.completion = completion
-        UIApplication.shared.open(authConfig.twitterAuthorizeURL, options: [:]) { (success) in
-            if !success {
-                completion(TwitterLoginState.failure(TwitterErrors.noTwitterAppError))
+        if UIApplication.shared.canOpenURL(authConfig.twitterAuthorizeURL) {
+            UIApplication.shared.open(authConfig.twitterAuthorizeURL, options: [:]) { (success) in
+                if !success {
+                    completion(TwitterLoginState.failure(TwitterErrors.noTwitterAppError))
+                }
             }
+        } else {
+            completion(TwitterLoginState.failure(TwitterErrors.noTwitterAppError))
         }
     }
 
