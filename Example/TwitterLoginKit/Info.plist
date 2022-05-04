@@ -33,6 +33,13 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<dict>
+		<key>twitter</key>
+		<string></string>
+		<key>twitterauth</key>
+		<string></string>
+	</dict>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
